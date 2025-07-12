@@ -80,15 +80,7 @@ const handleSubmit = async (e) => {
             Login
           </button>
 
-          <div className="flex gap-2">
-            <p className="text-sm">Don't have an account??</p>
-            <p
-              onClick={() => navigate("/signup")}
-              className="font-bold text-sm cursor-pointer"
-            >
-              Signup
-            </p>
-          </div>
+      
         </form>
       </AuthFormWrapper>
     </div>
