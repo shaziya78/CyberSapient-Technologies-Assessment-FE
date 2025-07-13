@@ -71,7 +71,7 @@ export default function EditProperty() {
   };
 
   return (
-    <div className="flex justify-center items-center min-h-screen bg-gray-100">
+    <div className="flex justify-center items-center min-h-screen">
       <AuthFormWrapper>
         <button
           type="button"
@@ -82,7 +82,7 @@ export default function EditProperty() {
         </button>
         <form
           onSubmit={handleSubmit}
-          className="space-y-4 border rounded-xl md:p-6 p-10 w-[400px] bg-white shadow"
+          className="space-y-4 border rounded-xl p-6 w-full sm:w-[22rem] mx-auto"
         >
           <div className="text-center mb-4">
             <h2 className="text-2xl font-bold">Edit Property</h2>

@@ -52,7 +52,7 @@ export default function Signup() {
       <AuthFormWrapper>
         <form
           onSubmit={handleSubmit}
-          className="space-y-4 border rounded-xl md:p-3 p-10 w-[400px]"
+          className="space-y-4 border rounded-xl p-6 w-full sm:w-[22rem] mx-auto"
         >
           <div className="text-center p-8">
             <h1 className="font-bold text-2xl">Create Your Account</h1>

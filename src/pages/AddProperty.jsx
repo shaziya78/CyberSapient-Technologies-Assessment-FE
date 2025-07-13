@@ -47,7 +47,7 @@ export default function AddProperty() {
   };
 
   return (
-    <div className="w-full flex justify-center items-center min-h-screen bg-gray-100 px-4 sm:px-6">
+    <div className="w-full flex justify-center items-center min-h-screen px-4 sm:px-6">
       <AuthFormWrapper>
         <button
           type="button"
@@ -58,7 +58,7 @@ export default function AddProperty() {
         </button>
         <form
           onSubmit={handleSubmit}
-          className="space-y-4 border rounded-xl md:p-6 p-10 w-[400px] bg-white shadow"
+          className="space-y-4 border rounded-xl p-6 w-full sm:w-[22rem] mx-auto"
         >
           <div className="text-center mb-4">
             <h2 className="text-2xl font-bold">Add New Property</h2>
